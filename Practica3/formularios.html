@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>formularios</title>
+
+</head>
+<body>
+		<h1>Práctica 3 - Formularios en HTML</h1><hr>
+		<form action="">
+			<label for="">Nombre:</label>
+			<input type="text"><br><br>
+
+			<label for="">Edad:</label>
+			<input type="number"><br><br>
+
+			<label for="">Fecha:</label>
+			<input type="date"><br><br>
+
+			<label for="">Sexo:</label>
+			<input type="radio" name="Sexo">F
+			<input type="radio" name="Sexo">M<br><br>
+
+			<label for="">Pasatiempos:</label>
+			<input type="checkbox" name="Pasatiempos[]">Leer
+			<input type="checkbox" name="Pasatiempos[]">Escuchar música
+			<input type="checkbox" name="Pasatiempos[]">Hacer deporte
+			<br><br>
+
+			<label for="">Comentarios:</label><br>
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			<br><br>
+
+			<label for="">Contraseña:</label>
+			<input type="password" name=""><br><br>
+
+			<label for="">Correo electrónico:</label>
+			<input type="email"><br><br>
+
+			<label for="">Subir fotografía:</label>
+			<input type="file"><br><br>
+
+			<label for="">Selecciona el mes:</label>
+			<input type="month"><br><br>
+
+			<select name="" id="">
+				<option value="" selected="">Selecciona tu estado:</option>
+				<option value="">Sinaloa</option>
+				<option value="">Sonora</option>
+				<option value="">Jalisco</option>
+				<option value="">Nayarit</option>
+			</select><br><br>
+
+			<input type="submit" value="Guarda registro"><br><br>
+		</form>
+</body>
+</html>
